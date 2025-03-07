@@ -1,5 +1,5 @@
 
-## name: evergarden
+## name: evergarden Fall red
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
@@ -12,11 +12,11 @@ bright_foreground = "#dddecf"
 
 [colors.cursor]
 text = "#171c1f"
-cursor = "#E67E80"
+cursor = "#e67e80"
 
 [colors.vi_mode_cursor]
 text = "#171c1f"
-cursor = "#E67E80"
+cursor = "#e67e80"
 
 [colors.search.matches]
 foreground = "#e69875"

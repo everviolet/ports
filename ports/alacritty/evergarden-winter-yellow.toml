@@ -1,22 +1,22 @@
 
-## name: evergarden (soft)
+## name: evergarden Winter yellow
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
 [colors.primary]
-background = "#313b40"
+background = "#1d2428"
 foreground = "#dddecf"
 dim_foreground = "#94aaa0"
 bright_foreground = "#dddecf"
 
 [colors.cursor]
 text = "#171c1f"
-cursor = "#E69875"
+cursor = "#dbbc7f"
 
 [colors.vi_mode_cursor]
 text = "#171c1f"
-cursor = "#E69875"
+cursor = "#dbbc7f"
 
 [colors.search.matches]
 foreground = "#e69875"
@@ -43,7 +43,7 @@ text = "#dddecf"
 background = "#3d494d"
 
 [colors.normal]
-black = "#313b40"
+black = "#1d2428"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"
@@ -53,7 +53,7 @@ cyan = "#93c9a1"
 white = "#dddecf"
 
 [colors.bright]
-black = "#313b40"
+black = "#232a2e"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"
@@ -63,7 +63,7 @@ cyan = "#93c9a1"
 white = "#94aaa0"
 
 [colors.dim]
-black = "#313b40"
+black = "#1d2428"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"

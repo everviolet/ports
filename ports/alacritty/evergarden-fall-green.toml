@@ -1,22 +1,22 @@
 
-## name: evergarden (soft)
+## name: evergarden Fall green
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
 [colors.primary]
-background = "#313b40"
+background = "#232a2e"
 foreground = "#dddecf"
 dim_foreground = "#94aaa0"
 bright_foreground = "#dddecf"
 
 [colors.cursor]
 text = "#171c1f"
-cursor = "#D6A0D1"
+cursor = "#b2c98f"
 
 [colors.vi_mode_cursor]
 text = "#171c1f"
-cursor = "#D6A0D1"
+cursor = "#b2c98f"
 
 [colors.search.matches]
 foreground = "#e69875"
@@ -43,7 +43,7 @@ text = "#dddecf"
 background = "#3d494d"
 
 [colors.normal]
-black = "#313b40"
+black = "#232a2e"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"
@@ -63,7 +63,7 @@ cyan = "#93c9a1"
 white = "#94aaa0"
 
 [colors.dim]
-black = "#313b40"
+black = "#232a2e"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"

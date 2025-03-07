@@ -1,41 +1,41 @@
 
-## name: evergarden (hard)
+## name: evergarden Spring pink
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
 [colors.primary]
-background = "#1c2225"
+background = "#2b3538"
 foreground = "#dddecf"
 dim_foreground = "#94aaa0"
 bright_foreground = "#dddecf"
 
 [colors.cursor]
-text = "#171c1f"
-cursor = "#97C9C3"
+text = "#1c2225"
+cursor = "#e3a8d1"
 
 [colors.vi_mode_cursor]
-text = "#171c1f"
-cursor = "#97C9C3"
+text = "#1c2225"
+cursor = "#e3a8d1"
 
 [colors.search.matches]
 foreground = "#e69875"
-background = "#171c1f"
+background = "#1c2225"
 
 [colors.search.focused_match]
-foreground = "#171c1f"
+foreground = "#1c2225"
 background = "#e69875"
 
 [colors.footer_bar]
 foreground = "#839e9a"
-background = "#171c1f"
+background = "#1c2225"
 
 [colors.hints.start]
-foreground = "#171c1f"
+foreground = "#1c2225"
 background = "#dbbc7f"
 
 [colors.hints.end]
-foreground = "#171c1f"
+foreground = "#1c2225"
 background = "#94aaa0"
 
 [colors.selection]
@@ -43,7 +43,7 @@ text = "#dddecf"
 background = "#3d494d"
 
 [colors.normal]
-black = "#1c2225"
+black = "#2b3538"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"
@@ -63,7 +63,7 @@ cyan = "#93c9a1"
 white = "#94aaa0"
 
 [colors.dim]
-black = "#1c2225"
+black = "#2b3538"
 red = "#e67e80"
 green = "#b2c98f"
 yellow = "#dbbc7f"
