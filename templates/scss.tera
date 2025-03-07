@@ -1,22 +1,20 @@
 ---
 whiskers:
-  version: 2.0.0
-  filename: "evergarden.scss"
+  version: ^2.0.0
+  matrix:
+    - flavor
+  filename: "evergarden-{{flavor.identifier}}.scss"
 ---
-$rosewater: #{{rosewater.hex}};
-$flamingo: #{{flamingo.hex}};
-$pink: #{{pink.hex}};
-$mauve: #{{mauve.hex}};
+/* evergarden {{flavor.name}} */
 $red: #{{red.hex}};
-$maroon: #{{maroon.hex}};
-$peach: #{{peach.hex}};
+$orange: #{{orange.hex}};
 $yellow: #{{yellow.hex}};
 $green: #{{green.hex}};
-$teal: #{{teal.hex}};
-$sky: #{{sky.hex}};
-$sapphire: #{{sapphire.hex}};
+$aqua: #{{aqua.hex}};
+$skye: #{{skye.hex}};
 $blue: #{{blue.hex}};
-$lavender: #{{lavender.hex}};
+$purple: #{{purple.hex}};
+$pink: #{{pink.hex}};
 $text: #{{text.hex}};
 $subtext1: #{{subtext1.hex}};
 $subtext0: #{{subtext0.hex}};
