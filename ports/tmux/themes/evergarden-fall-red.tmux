@@ -1,19 +1,23 @@
 
-## name: evergarden-soft-blue
+## name: evergarden Fall red
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
 # vim:set ft=tmux:
 
+set -ogq @thm_accent "#e67e80"
 set -ogq @thm_crust "#171c1f"
-set -ogq @thm_base "#313b40"
+set -ogq @thm_mantle "#1c2225"
+set -ogq @thm_base "#232a2e"
 set -ogq @thm_surface0 "#313b40"
 set -ogq @thm_surface1 "#3d494d"
 set -ogq @thm_surface2 "#4f5e62"
 set -ogq @thm_overlay0 "#617377"
 set -ogq @thm_overlay1 "#738a8b"
 set -ogq @thm_overlay2 "#839e9a"
+set -ogq @thm_subtext0 "#94aaa0"
+set -ogq @thm_subtext1 "#caccbe"
 set -ogq @thm_text "#dddecf"
 set -ogq @thm_red "#e67e80"
 set -ogq @thm_orange "#e69875"
