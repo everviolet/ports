@@ -1,12 +1,4 @@
----
-whiskers:
-  version: ^2.0.0
-  matrix:
-    - flavor
-    - accent
-  filename: "evergarden-{{flavor.identifier}}-{{accent}}.itermcolors"
----
-{% set accent = flavor.colors[accent] %}
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -14,11 +6,11 @@ whiskers:
     <key>Selected Text Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -27,11 +19,11 @@ whiskers:
     <key>Selection Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -40,11 +32,11 @@ whiskers:
     <key>Cursor Guide Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <real>0.07</real>
       <key>Color Space</key>
@@ -53,11 +45,11 @@ whiskers:
     <key>Cursor Text Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{crust.rgb.r / 255}}</string>
+      <string>0.09019607843137255</string>
       <key>Green Component</key>
-      <string>{{crust.rgb.g / 255}}</string>
+      <string>0.10980392156862745</string>
       <key>Blue Component</key>
-      <string>{{crust.rgb.b / 255}}</string>
+      <string>0.12156862745098039</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -66,11 +58,11 @@ whiskers:
     <key>Cursor Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{accent.rgb.r / 255}}</string>
+      <string>0.592156862745098</string>
       <key>Green Component</key>
-      <string>{{accent.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{accent.rgb.b / 255}}</string>
+      <string>0.7647058823529411</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -79,11 +71,11 @@ whiskers:
     <key>Bold Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -92,11 +84,11 @@ whiskers:
     <key>Link Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -105,11 +97,11 @@ whiskers:
     <key>Foreground Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -118,11 +110,11 @@ whiskers:
     <key>Background Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{base.rgb.r / 255}}</string>
+      <string>0.13725490196078433</string>
       <key>Green Component</key>
-      <string>{{base.rgb.g / 255}}</string>
+      <string>0.16470588235294117</string>
       <key>Blue Component</key>
-      <string>{{base.rgb.b / 255}}</string>
+      <string>0.1803921568627451</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -131,11 +123,11 @@ whiskers:
     <key>Ansi 15 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface1.rgb.r / 255}}</string>
+      <string>0.23921568627450981</string>
       <key>Green Component</key>
-      <string>{{surface1.rgb.g / 255}}</string>
+      <string>0.28627450980392155</string>
       <key>Blue Component</key>
-      <string>{{surface1.rgb.b / 255}}</string>
+      <string>0.30196078431372547</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -144,11 +136,11 @@ whiskers:
     <key>Ansi 14 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -157,11 +149,11 @@ whiskers:
     <key>Ansi 13 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -170,11 +162,11 @@ whiskers:
     <key>Ansi 12 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -183,11 +175,11 @@ whiskers:
     <key>Ansi 11 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -196,11 +188,11 @@ whiskers:
     <key>Ansi 10 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -209,11 +201,11 @@ whiskers:
     <key>Ansi 9 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -222,11 +214,11 @@ whiskers:
     <key>Ansi 8 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{subtext1.rgb.r / 255}}</string>
+      <string>0.792156862745098</string>
       <key>Green Component</key>
-      <string>{{subtext1.rgb.g / 255}}</string>
+      <string>0.8</string>
       <key>Blue Component</key>
-      <string>{{subtext1.rgb.b / 255}}</string>
+      <string>0.7450980392156863</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -235,11 +227,11 @@ whiskers:
     <key>Ansi 7 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -248,11 +240,11 @@ whiskers:
     <key>Ansi 6 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -261,11 +253,11 @@ whiskers:
     <key>Ansi 5 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -274,11 +266,11 @@ whiskers:
     <key>Ansi 4 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -287,11 +279,11 @@ whiskers:
     <key>Ansi 3 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -300,11 +292,11 @@ whiskers:
     <key>Ansi 2 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -313,11 +305,11 @@ whiskers:
     <key>Ansi 1 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -326,11 +318,11 @@ whiskers:
     <key>Ansi 0 Color</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -339,11 +331,11 @@ whiskers:
     <key>Selected Text Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -352,11 +344,11 @@ whiskers:
     <key>Selection Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -365,11 +357,11 @@ whiskers:
     <key>Cursor Guide Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <real>0.07</real>
       <key>Color Space</key>
@@ -378,11 +370,11 @@ whiskers:
     <key>Cursor Text Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{crust.rgb.r / 255}}</string>
+      <string>0.09019607843137255</string>
       <key>Green Component</key>
-      <string>{{crust.rgb.g / 255}}</string>
+      <string>0.10980392156862745</string>
       <key>Blue Component</key>
-      <string>{{crust.rgb.b / 255}}</string>
+      <string>0.12156862745098039</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -391,11 +383,11 @@ whiskers:
     <key>Cursor Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -404,11 +396,11 @@ whiskers:
     <key>Bold Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -417,11 +409,11 @@ whiskers:
     <key>Link Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -431,11 +423,11 @@ whiskers:
     <key>Background Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -444,11 +436,11 @@ whiskers:
     <key>Ansi 15 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface1.rgb.r / 255}}</string>
+      <string>0.23921568627450981</string>
       <key>Green Component</key>
-      <string>{{surface1.rgb.g / 255}}</string>
+      <string>0.28627450980392155</string>
       <key>Blue Component</key>
-      <string>{{surface1.rgb.b / 255}}</string>
+      <string>0.30196078431372547</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -457,11 +449,11 @@ whiskers:
     <key>Ansi 14 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -470,11 +462,11 @@ whiskers:
     <key>Ansi 13 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -483,11 +475,11 @@ whiskers:
     <key>Ansi 12 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -496,11 +488,11 @@ whiskers:
     <key>Ansi 11 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -509,11 +501,11 @@ whiskers:
     <key>Ansi 10 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -522,11 +514,11 @@ whiskers:
     <key>Ansi 9 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -535,11 +527,11 @@ whiskers:
     <key>Ansi 8 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{subtext1.rgb.r / 255}}</string>
+      <string>0.792156862745098</string>
       <key>Green Component</key>
-      <string>{{subtext1.rgb.g / 255}}</string>
+      <string>0.8</string>
       <key>Blue Component</key>
-      <string>{{subtext1.rgb.b / 255}}</string>
+      <string>0.7450980392156863</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -548,11 +540,11 @@ whiskers:
     <key>Ansi 7 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -561,11 +553,11 @@ whiskers:
     <key>Ansi 6 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -574,11 +566,11 @@ whiskers:
     <key>Ansi 5 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -587,11 +579,11 @@ whiskers:
     <key>Ansi 4 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -600,11 +592,11 @@ whiskers:
     <key>Ansi 3 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -613,11 +605,11 @@ whiskers:
     <key>Ansi 2 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -626,11 +618,11 @@ whiskers:
     <key>Ansi 1 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -639,11 +631,11 @@ whiskers:
     <key>Ansi 0 Color (Light)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -652,11 +644,11 @@ whiskers:
     <key>Selected Text Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -665,11 +657,11 @@ whiskers:
     <key>Selection Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -678,11 +670,11 @@ whiskers:
     <key>Cursor Guide Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <real>0.07</real>
       <key>Color Space</key>
@@ -691,11 +683,11 @@ whiskers:
     <key>Cursor Text Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{crust.rgb.r / 255}}</string>
+      <string>0.09019607843137255</string>
       <key>Green Component</key>
-      <string>{{crust.rgb.g / 255}}</string>
+      <string>0.10980392156862745</string>
       <key>Blue Component</key>
-      <string>{{crust.rgb.b / 255}}</string>
+      <string>0.12156862745098039</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -704,11 +696,11 @@ whiskers:
     <key>Cursor Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -717,11 +709,11 @@ whiskers:
     <key>Bold Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -730,11 +722,11 @@ whiskers:
     <key>Link Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -744,11 +736,11 @@ whiskers:
     <key>Background Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -757,11 +749,11 @@ whiskers:
     <key>Ansi 15 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface1.rgb.r / 255}}</string>
+      <string>0.23921568627450981</string>
       <key>Green Component</key>
-      <string>{{surface1.rgb.g / 255}}</string>
+      <string>0.28627450980392155</string>
       <key>Blue Component</key>
-      <string>{{surface1.rgb.b / 255}}</string>
+      <string>0.30196078431372547</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -770,11 +762,11 @@ whiskers:
     <key>Ansi 14 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -783,11 +775,11 @@ whiskers:
     <key>Ansi 13 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -796,11 +788,11 @@ whiskers:
     <key>Ansi 12 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -809,11 +801,11 @@ whiskers:
     <key>Ansi 11 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -822,11 +814,11 @@ whiskers:
     <key>Ansi 10 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -835,11 +827,11 @@ whiskers:
     <key>Ansi 9 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -848,11 +840,11 @@ whiskers:
     <key>Ansi 8 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{subtext1.rgb.r / 255}}</string>
+      <string>0.792156862745098</string>
       <key>Green Component</key>
-      <string>{{subtext1.rgb.g / 255}}</string>
+      <string>0.8</string>
       <key>Blue Component</key>
-      <string>{{subtext1.rgb.b / 255}}</string>
+      <string>0.7450980392156863</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -861,11 +853,11 @@ whiskers:
     <key>Ansi 7 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{surface2.rgb.r / 255}}</string>
+      <string>0.30980392156862746</string>
       <key>Green Component</key>
-      <string>{{surface2.rgb.g / 255}}</string>
+      <string>0.3686274509803922</string>
       <key>Blue Component</key>
-      <string>{{surface2.rgb.b / 255}}</string>
+      <string>0.3843137254901961</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -874,11 +866,11 @@ whiskers:
     <key>Ansi 6 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{aqua.rgb.r / 255}}</string>
+      <string>0.5764705882352941</string>
       <key>Green Component</key>
-      <string>{{aqua.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{aqua.rgb.b / 255}}</string>
+      <string>0.6313725490196078</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -887,11 +879,11 @@ whiskers:
     <key>Ansi 5 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{pink.rgb.r / 255}}</string>
+      <string>0.8901960784313725</string>
       <key>Green Component</key>
-      <string>{{pink.rgb.g / 255}}</string>
+      <string>0.6588235294117647</string>
       <key>Blue Component</key>
-      <string>{{pink.rgb.b / 255}}</string>
+      <string>0.8196078431372549</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -900,11 +892,11 @@ whiskers:
     <key>Ansi 4 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{blue.rgb.r / 255}}</string>
+      <string>0.6078431372549019</string>
       <key>Green Component</key>
-      <string>{{blue.rgb.g / 255}}</string>
+      <string>0.7098039215686275</string>
       <key>Blue Component</key>
-      <string>{{blue.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -913,11 +905,11 @@ whiskers:
     <key>Ansi 3 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{yellow.rgb.r / 255}}</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>{{yellow.rgb.g / 255}}</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>{{yellow.rgb.b / 255}}</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -926,11 +918,11 @@ whiskers:
     <key>Ansi 2 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{green.rgb.r / 255}}</string>
+      <string>0.6980392156862745</string>
       <key>Green Component</key>
-      <string>{{green.rgb.g / 255}}</string>
+      <string>0.788235294117647</string>
       <key>Blue Component</key>
-      <string>{{green.rgb.b / 255}}</string>
+      <string>0.5607843137254902</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -939,11 +931,11 @@ whiskers:
     <key>Ansi 1 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{red.rgb.r / 255}}</string>
+      <string>0.9019607843137255</string>
       <key>Green Component</key>
-      <string>{{red.rgb.g / 255}}</string>
+      <string>0.49411764705882355</string>
       <key>Blue Component</key>
-      <string>{{red.rgb.b / 255}}</string>
+      <string>0.5019607843137255</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -952,11 +944,11 @@ whiskers:
     <key>Ansi 0 Color (Dark)</key>
     <dict>
       <key>Red Component</key>
-      <string>{{text.rgb.r / 255}}</string>
+      <string>0.8666666666666667</string>
       <key>Green Component</key>
-      <string>{{text.rgb.g / 255}}</string>
+      <string>0.8705882352941177</string>
       <key>Blue Component</key>
-      <string>{{text.rgb.b / 255}}</string>
+      <string>0.8117647058823529</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>

@@ -58,11 +58,11 @@
     <key>Cursor Color</key>
     <dict>
       <key>Red Component</key>
-      <string>0.6980392156862745</string>
+      <string>0.8588235294117647</string>
       <key>Green Component</key>
-      <string>0.788235294117647</string>
+      <string>0.7372549019607844</string>
       <key>Blue Component</key>
-      <string>0.5607843137254902</string>
+      <string>0.4980392156862745</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
@@ -95,7 +95,6 @@
       <string>sRGB</string>
     </dict>
     <key>Foreground Color</key>
-    <key>Background Color</key>
     <dict>
       <key>Red Component</key>
       <string>0.8666666666666667</string>
@@ -103,6 +102,19 @@
       <string>0.8705882352941177</string>
       <key>Blue Component</key>
       <string>0.8117647058823529</string>
+      <key>Alpha Component</key>
+      <integer>1</integer>
+      <key>Color Space</key>
+      <string>sRGB</string>
+    </dict>
+    <key>Background Color</key>
+    <dict>
+      <key>Red Component</key>
+      <string>0.13725490196078433</string>
+      <key>Green Component</key>
+      <string>0.16470588235294117</string>
+      <key>Blue Component</key>
+      <string>0.1803921568627451</string>
       <key>Alpha Component</key>
       <integer>1</integer>
       <key>Color Space</key>
