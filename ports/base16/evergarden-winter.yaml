@@ -1,13 +1,12 @@
-
-## name: evergarden
+## name: evergarden Winter
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
-scheme: "evergarden"
+scheme: "evergarden-Winter"
 author: "https://github.com/comfysage"
 
-base00: "232a2e"
+base00: "1d2428"
 base01: "e67e80"
 base02: "b2c98f"
 base03: "dbbc7f"
@@ -15,7 +14,7 @@ base04: "9bb5cf"
 base05: "e3a8d1"
 base06: "93c9a1"
 base07: "dddecf"
-base08: "313b40"
+base08: "232a2e"
 base09: "e67e80"
 base0A: "b2c98f"
 base0B: "dbbc7f"

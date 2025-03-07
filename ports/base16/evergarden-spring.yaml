@@ -1,13 +1,12 @@
-
-## name: evergarden-hard
+## name: evergarden Spring
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
-scheme: "evergarden-hard"
+scheme: "evergarden-Spring"
 author: "https://github.com/comfysage"
 
-base00: "1c2225"
+base00: "2b3538"
 base01: "e67e80"
 base02: "b2c98f"
 base03: "dbbc7f"

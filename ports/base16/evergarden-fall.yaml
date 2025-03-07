@@ -1,13 +1,12 @@
-
-## name: evergarden-soft
+## name: evergarden Fall
 ## author: comfysage
 ## license: GPL-3.0
 ## blurb: a comfy colorscheme for cozy morning coding
 
-scheme: "evergarden-soft"
+scheme: "evergarden-Fall"
 author: "https://github.com/comfysage"
 
-base00: "313b40"
+base00: "232a2e"
 base01: "e67e80"
 base02: "b2c98f"
 base03: "dbbc7f"
