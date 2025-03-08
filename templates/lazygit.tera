@@ -1,0 +1,42 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - variant: ["themes", "themes-mergable"]
+    - flavor
+    - accent
+  filename: "{{variant}}/evergarden-{{flavor.identifier}}-{{accent}}.yml"
+---
+{%- macro theme() %}
+{% set accent = flavor.colors[accent] %}
+theme:
+  activeBorderColor:
+    - '#{{ accent.hex }}'
+    - bold
+  inactiveBorderColor:
+    - '#{{ subtext0.hex }}'
+  optionsTextColor:
+    - '#{{ blue.hex }}'
+  selectedLineBgColor:
+    - '#{{ surface0.hex }}'
+  cherryPickedCommitBgColor:
+    - '#{{ accent | mix(color=crust, amount=0.15) | get(key="hex") }}'
+  cherryPickedCommitFgColor:
+    - '#{{ accent.hex }}'
+  unstagedChangesColor:
+    - '#{{ red.hex }}'
+  defaultFgColor:
+    - '#{{ text.hex }}'
+  searchingActiveBorderColor:
+    - '#{{ yellow.hex }}'
+
+authorColors:
+  '*': '#{{ subtext0.hex }}'
+{%- endmacro %}
+
+{%- if variant == "themes" -%}
+{{ self::theme() }}
+{%- else -%}
+gui:
+  {{ self::theme() | indent(prefix="  ") }}
+{%- endif %}
